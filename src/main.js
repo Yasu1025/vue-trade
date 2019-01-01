@@ -12,15 +12,13 @@ import store from './store/store'
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
-Vue.http.options.root = "https://****";
+Vue.http.options.root = "https://*****";
 
 
 const router = new VueRouter({
   mode: 'history',
   routes
 })
-
-
 
 
 Vue.filter('currency', (value) => {
